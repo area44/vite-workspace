@@ -1,0 +1,30 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "format": "biome format --write .",
+    "lint": "biome lint --write .",
+    "check": "biome check --write ."
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.11",
+    "vite": "npm:rolldown-vite@latest"
+  },
+  "devDependencies": {
+    "@area44/biome-config": "^2.2.5",
+    "@biomejs/biome": "^2.1.2",
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react-oxc": "^0.3.0",
+    "typescript": "^5.8.3"
+  }
+}
