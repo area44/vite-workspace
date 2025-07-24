@@ -3,7 +3,7 @@
   "version": 2,
   "name": "@area44/vite-workspace",
   "framework": "vite",
-  "buildCommand": "vite build",
+  "buildCommand": "tsc -b && vite build",
   "outputDirectory": "dist",
   "github": {
     "enabled": true,
