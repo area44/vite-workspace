@@ -45,12 +45,6 @@ function App() {
           Count is {count}
         </button>
 
-        {count > 0 && (
-          <p className="mt-3 text-green-600 font-medium">
-            You've clicked {count} time{count > 1 ? "s" : ""}!
-          </p>
-        )}
-
         <p className="mt-4 text-gray-700 dark:text-gray-300">
           Edit{" "}
           <code className="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">
