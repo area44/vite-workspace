@@ -1,6 +1,6 @@
 # Vite Workspace
 
-This template provides a minimal setup to get React working in Vite.
+This template provides a minimal setup to get **React**, **Tailwind CSS** working with **Vite**.
 
 ## Development
 
@@ -10,7 +10,7 @@ cd vite-workspace
 pnpm install
 pnpm dev
 ```
-Open your web browser and navigate to [http://localhost:5173](http://localhost:5173)
+Open your web browser and navigate to http://localhost:5173.
 
 ## License
 
