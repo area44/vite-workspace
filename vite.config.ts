@@ -3,9 +3,11 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react-oxc";
 import { defineConfig } from "vite";
 
+const base = process.env.BASE || "/";
+
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.BASE || "/",
+  base,
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
