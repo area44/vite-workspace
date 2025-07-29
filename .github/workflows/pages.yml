@@ -24,7 +24,7 @@ jobs:
         uses: area44/workflows/vite@v2.1.0
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
