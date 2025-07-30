@@ -17,11 +17,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set base environment variable
-        run: echo "BASE=/${{ github.event.repository.name }}/" >> $GITHUB_ENV
-
       - name: Run build
-        uses: area44/workflows/vite@v2.1.0
+        uses: area44/workflows/vite@v2.2.0
 
   deploy:
     needs: build
