@@ -6,7 +6,7 @@
   "buildCommand": "tsc -b && vite build",
   "outputDirectory": "dist",
   "github": {
-    "enabled": true,
+    "enabled": false,
     "autoJobCancelation": true
   }
 }

@@ -24,23 +24,11 @@ function App() {
             role="img"
           >
             <defs>
-              <linearGradient
-                id="vite-grad1"
-                x1="-.828%"
-                x2="57.636%"
-                y1="7.652%"
-                y2="78.411%"
-              >
+              <linearGradient x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%">
                 <stop offset="0%" stopColor="#41D1FF" />
                 <stop offset="100%" stopColor="#BD34FE" />
               </linearGradient>
-              <linearGradient
-                id="vite-grad2"
-                x1="43.376%"
-                x2="50.316%"
-                y1="2.242%"
-                y2="89.03%"
-              >
+              <linearGradient x1="43.376%" x2="50.316%" y1="2.242%" y2="89.03%">
                 <stop offset="0%" stopColor="#FFEA83" />
                 <stop offset="8.333%" stopColor="#FFDD35" />
                 <stop offset="100%" stopColor="#FFA800" />
@@ -82,12 +70,12 @@ function App() {
       </section>
 
       {/* Title */}
-      <h1 className="text-4xl font-extrabold my-10 text-gray-900 dark:text-white">
+      <h1 className="text-4xl font-extrabold my-10 text-gray-800 ">
         Vite Workspace
       </h1>
 
       {/* Button & Counter */}
-      <section className="inline-block p-8 bg-white dark:bg-gray-800 rounded-lg shadow-md text-black dark:text-white">
+      <section className="inline-block p-8 bg-white rounded-lg shadow-md text-black">
         <button
           type="button"
           onClick={() => setCount((prev) => prev + 1)}
@@ -96,17 +84,15 @@ function App() {
           Count is {count}
         </button>
 
-        <p className="mt-4 text-gray-700 dark:text-gray-300">
+        <p className="mt-4 text-gray-700">
           Edit{" "}
-          <code className="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">
-            src/App.tsx
-          </code>{" "}
+          <code className="bg-gray-100 px-1 py-0.5 rounded">src/App.tsx</code>{" "}
           and save to test HMR.
         </p>
       </section>
 
       {/* Footer Note */}
-      <p className="mt-6 text-gray-500 dark:text-gray-400">
+      <p className="mt-6 text-gray-500">
         Click on the Vite and React logos to learn more.
       </p>
     </main>
