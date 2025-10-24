@@ -3,7 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
-const base = process.env.BASE || "/";
+const base = process.env.base || "/";
 
 // https://vite.dev/config/
 export default defineConfig({
