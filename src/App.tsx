@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -70,9 +70,7 @@ function App() {
       </section>
 
       {/* Title */}
-      <h1 className="text-4xl font-extrabold my-10 text-gray-800 ">
-        Vite Workspace
-      </h1>
+      <h1 className="text-4xl font-extrabold my-10 text-gray-800 ">Vite Workspace</h1>
 
       {/* Button & Counter */}
       <section className="inline-block p-8 bg-white rounded-lg shadow-md text-black">
@@ -85,16 +83,12 @@ function App() {
         </button>
 
         <p className="mt-4 text-gray-700">
-          Edit{" "}
-          <code className="bg-gray-100 px-1 py-0.5 rounded">src/App.tsx</code>{" "}
-          and save to test HMR.
+          Edit <code className="bg-gray-100 px-1 py-0.5 rounded">src/App.tsx</code> and save to test HMR.
         </p>
       </section>
 
       {/* Footer Note */}
-      <p className="mt-6 text-gray-500">
-        Click on the Vite and React logos to learn more.
-      </p>
+      <p className="mt-6 text-gray-500">Click on the Vite and React logos to learn more.</p>
     </main>
   );
 }
