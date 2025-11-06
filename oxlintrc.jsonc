@@ -11,5 +11,17 @@
     "promise",
     "vitest",
     "vue"
+  ],
+  "ignorePatterns": [
+    "*.min.*",
+    "*.map",
+    "**/public",
+    "**/build",
+    "**/dist",
+    "**/out",
+    "**/.github",
+    "**/.next",
+    "**/.astro",
+    "**/.netlify"
   ]
 }
