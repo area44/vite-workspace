@@ -7,8 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "lint": "oxlint -c oxlintrc.jsonc",
     "format": "oxfmt -c oxfmtrc.jsonc",
-    "lint": "oxlint -c oxlintrc.jsonc"
+    "check": "oxlint -c oxlintrc.jsonc && oxfmt -c oxfmtrc.jsonc"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
