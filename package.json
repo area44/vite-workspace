@@ -7,9 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "biome format --write",
-    "lint": "biome lint --write",
-    "check": "biome check --write"
+    "format": "oxfmt -c oxfmtrc.jsonc",
+    "lint": "oxlint -c oxlintrc.jsonc"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
