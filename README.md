@@ -10,6 +10,7 @@ cd vite-workspace
 pnpm install
 pnpm dev
 ```
+
 Open your web browser and navigate to http://localhost:5173.
 
 ## License

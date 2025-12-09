@@ -30,12 +30,12 @@
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
     },
 
     /* Type Declarations */
-    "types": ["vite/client"]
+    "types": ["vite/client"],
   },
 
-  "include": ["src"]
+  "include": ["src"],
 }
