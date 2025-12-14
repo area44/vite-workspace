@@ -12,15 +12,15 @@
     "check": "oxlint -c oxlintrc.jsonc --fix && oxfmt -c oxfmtrc.jsonc"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.17",
+    "@tailwindcss/vite": "^4.1.18",
     "@vitejs/plugin-react": "^5.1.2",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
-    "tailwindcss": "^4.1.17",
-    "vite": "^8.0.0-beta.1"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.18",
+    "vite": "^8.0.0-beta.2"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
+    "@types/node": "^24.10.4",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "oxfmt": "^0.17.0",
