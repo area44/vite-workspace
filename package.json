@@ -1,7 +1,7 @@
 {
   "name": "@area44/vite-workspace",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,8 +23,8 @@
     "@types/node": "^24.10.4",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "oxfmt": "^0.17.0",
-    "oxlint": "^1.32.0",
+    "oxfmt": "^0.18.0",
+    "oxlint": "^1.33.0",
     "typescript": "^5.9.3"
   }
 }
