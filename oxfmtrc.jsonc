@@ -12,4 +12,7 @@
     "**/.astro",
     "**/.netlify",
   ],
+  "experimentalTailwindcss": {
+    "functions": ["clsx", "cn", "cva", "tw"],
+  },
 }
