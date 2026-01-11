@@ -4,7 +4,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <main className="max-w-[1280px] mx-auto p-8 sm:p-16 lg:p-32 text-center">
+    <main className="max-w-7xl mx-auto p-8 sm:p-16 lg:p-32 text-center">
       {/* Logo Section */}
       <section className="flex justify-center gap-8">
         {/* Vite Logo */}
