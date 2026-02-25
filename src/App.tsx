@@ -4,7 +4,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <main className="max-w-7xl mx-auto p-8 sm:p-16 lg:p-32 text-center">
+    <main className="mx-auto max-w-7xl p-8 text-center sm:p-16 lg:p-32">
       {/* Logo Section */}
       <section className="flex justify-center gap-8">
         {/* Vite Logo */}
@@ -70,20 +70,20 @@ function App() {
       </section>
 
       {/* Title */}
-      <h1 className="text-4xl font-extrabold my-10 text-gray-800 ">Vite Workspace</h1>
+      <h1 className="my-10 text-4xl font-extrabold text-gray-800">Vite Workspace</h1>
 
       {/* Button & Counter */}
-      <section className="inline-block p-8 bg-white rounded-lg shadow-md text-black">
+      <section className="inline-block rounded-lg bg-white p-8 text-black shadow-md">
         <button
           type="button"
           onClick={() => setCount((prev) => prev + 1)}
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded transition focus:outline-none focus:ring-4 focus:ring-blue-300"
+          className="rounded bg-blue-500 px-5 py-2 font-semibold text-white transition hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 focus:outline-none"
         >
           Count is {count}
         </button>
 
         <p className="mt-4 text-gray-700">
-          Edit <code className="bg-gray-100 px-1 py-0.5 rounded">src/App.tsx</code> and save to test
+          Edit <code className="rounded bg-gray-100 px-1 py-0.5">src/App.tsx</code> and save to test
           HMR.
         </p>
       </section>
