@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "check": "oxlint && oxfmt",
     "dev": "vite",
-    "format": "oxfmt",
+    "preview": "vite preview",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "fmt": "oxfmt",
+    "check": "oxlint && oxfmt"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
