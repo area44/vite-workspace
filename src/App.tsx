@@ -25,7 +25,7 @@ function App() {
             <path
               fill="#863bff"
               d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z"
-              style="fill:#863bff;fill:color(display-p3 .5252 .23 1);fill-opacity:1"
+              style={{ fill: "color(display-p3 .5252 .23 1)", fillOpacity: 1 }}
             />
             <mask
               id="a"
@@ -34,12 +34,12 @@ function App() {
               x="0"
               y="0"
               maskUnits="userSpaceOnUse"
-              style="mask-type:alpha"
+              style={{ maskType: "alpha" }}
             >
               <path
                 fill="#000"
                 d="M25.842 44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.183c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 1.088.89 1.832L25.843 44.94z"
-                style="fill:#000;fill-opacity:1"
+                style={{ fill: "#000", fillOpacity: 1 }}
               />
             </mask>
             <g mask="url(#a)">
@@ -50,7 +50,7 @@ function App() {
                   fill="#ede6ff"
                   rx="5.508"
                   ry="14.704"
-                  style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .9275 .9033 1)", fillOpacity: 1 }}
                   transform="matrix(.00324 1 1 -.00324 -4.47 31.516)"
                 />
               </g>
@@ -61,7 +61,7 @@ function App() {
                   fill="#ede6ff"
                   rx="10.399"
                   ry="29.851"
-                  style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .9275 .9033 1)", fillOpacity: 1 }}
                   transform="matrix(.00324 1 1 -.00324 -39.328 7.883)"
                 />
               </g>
@@ -72,7 +72,7 @@ function App() {
                   fill="#7e14ff"
                   rx="5.508"
                   ry="30.487"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(89.814 -25.913 -14.639)scale(1 -1)"
                 />
               </g>
@@ -83,7 +83,7 @@ function App() {
                   fill="#7e14ff"
                   rx="5.508"
                   ry="30.599"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(89.814 -32.644 -3.334)scale(1 -1)"
                 />
               </g>
@@ -94,7 +94,7 @@ function App() {
                   fill="#7e14ff"
                   rx="5.508"
                   ry="30.599"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="matrix(.00324 1 1 -.00324 -34.34 30.47)"
                 />
               </g>
@@ -105,7 +105,7 @@ function App() {
                   fill="#ede6ff"
                   rx="14.072"
                   ry="22.078"
-                  style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .9275 .9033 1)", fillOpacity: 1 }}
                   transform="rotate(93.35 24.506 48.493)scale(-1 1)"
                 />
               </g>
@@ -116,7 +116,7 @@ function App() {
                   fill="#7e14ff"
                   rx="3.47"
                   ry="21.501"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(89.009 28.708 47.59)scale(-1 1)"
                 />
               </g>
@@ -127,7 +127,7 @@ function App() {
                   fill="#7e14ff"
                   rx="3.47"
                   ry="21.501"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(89.009 28.708 47.59)scale(-1 1)"
                 />
               </g>
@@ -138,7 +138,7 @@ function App() {
                   fill="#7e14ff"
                   rx="4.407"
                   ry="29.108"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(39.51 .387 8.972)"
                 />
               </g>
@@ -149,7 +149,7 @@ function App() {
                   fill="#7e14ff"
                   rx="4.407"
                   ry="29.108"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(37.892 47.523 -6.092)"
                 />
               </g>
@@ -160,7 +160,7 @@ function App() {
                   fill="#47bfff"
                   rx="5.971"
                   ry="9.665"
-                  style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .2799 .748 1)", fillOpacity: 1 }}
                   transform="rotate(37.892 41.412 6.333)"
                 />
               </g>
@@ -171,7 +171,7 @@ function App() {
                   fill="#7e14ff"
                   rx="4.407"
                   ry="29.108"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(37.892 -1.88 38.332)"
                 />
               </g>
@@ -182,7 +182,7 @@ function App() {
                   fill="#7e14ff"
                   rx="4.407"
                   ry="29.108"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(37.892 -1.88 38.332)"
                 />
               </g>
@@ -193,7 +193,7 @@ function App() {
                   fill="#7e14ff"
                   rx="4.407"
                   ry="29.108"
-                  style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .4922 .0767 1)", fillOpacity: 1 }}
                   transform="rotate(37.892 35.651 29.907)"
                 />
               </g>
@@ -204,7 +204,7 @@ function App() {
                   fill="#47bfff"
                   rx="5.971"
                   ry="15.297"
-                  style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1"
+                  style={{ fill: "color(display-p3 .2799 .748 1)", fillOpacity: 1 }}
                   transform="rotate(37.892 38.418 32.4)"
                 />
               </g>
