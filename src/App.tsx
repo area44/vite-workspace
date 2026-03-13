@@ -431,13 +431,13 @@ function App() {
 
       <h1 className="my-10 text-4xl font-extrabold text-gray-800">Vite Workspace</h1>
 
-      <section className="inline-block rounded-lg bg-white p-8 text-black shadow-md">
+      <section className="mt-8 flex flex-col items-center gap-4">
         <button
           type="button"
           onClick={() => setCount((prev) => prev + 1)}
-          className="rounded bg-blue-500 px-5 py-2 font-semibold text-white transition hover:bg-blue-600 focus:ring-4 focus:ring-blue-300 focus:outline-none"
+          className="cursor-pointer rounded-lg border border-transparent bg-[#1a1a1a] px-5 py-2.5 text-sm font-medium text-white transition-colors duration-250 hover:border-[#646cff] focus:ring-4 focus:ring-indigo-500/30 focus:outline-none dark:bg-[#f9f9f9] dark:text-[#213547]"
         >
-          Count is {count}
+          count is {count}
         </button>
 
         <p className="mt-4 text-gray-700">
