@@ -6,7 +6,6 @@ function App() {
   return (
     <main className="mx-auto max-w-7xl p-8 text-center sm:p-16 lg:p-32">
       <section className="flex justify-center gap-8">
-
         <a
           href="https://vite.dev"
           target="_blank"
@@ -53,12 +52,9 @@ function App() {
             />
           </svg>
         </a>
-
       </section>
 
-      <h1 className="my-10 text-4xl font-extrabold text-gray-800">
-        Vite Workspace
-      </h1>
+      <h1 className="my-10 text-4xl font-extrabold text-gray-800">Vite Workspace</h1>
 
       <section className="inline-block rounded-lg bg-white p-8 text-black shadow-md">
         <button
@@ -70,13 +66,12 @@ function App() {
         </button>
 
         <p className="mt-4 text-gray-700">
-          Edit <code className="rounded bg-gray-100 px-1 py-0.5">src/App.tsx</code> and save to test HMR.
+          Edit <code className="rounded bg-gray-100 px-1 py-0.5">src/App.tsx</code> and save to test
+          HMR.
         </p>
       </section>
 
-      <p className="mt-6 text-gray-500">
-        Click on the Vite and React logos to learn more.
-      </p>
+      <p className="mt-6 text-gray-500">Click on the Vite and React logos to learn more.</p>
     </main>
   );
 }
