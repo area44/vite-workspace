@@ -17,8 +17,7 @@ function App() {
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="46"
+            className="h-24 p-6 transition duration-300 group-hover:drop-shadow-[0_0_2em_#646cffaa]"
             fill="none"
             viewBox="0 0 48 46"
           >
