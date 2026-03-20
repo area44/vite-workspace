@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Run build
-        uses: area44/workflows/vite@v4.0.0
+        uses: area44/workflows/vite@typescript-conversion-and-tests-9744384200001931261
 
   deploy:
     needs: build
