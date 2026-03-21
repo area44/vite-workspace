@@ -16,4 +16,4 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Run autofix
-        uses: area44/workflows/autofix@typescript-conversion-and-tests-9744384200001931261
+        uses: area44/workflows/autofix@refactor/rename-autofix-to-fixer-3933775440180582509
