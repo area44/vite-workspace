@@ -1,5 +1,7 @@
 # Vite Workspace
 
+[![GitHub Pages](https://github.com/area44/vite-workspace/actions/workflows/pages.yml/badge.svg)](https://area44.github.io/vite-workspace/)
+
 This template provides a minimal setup to get **React**, **Tailwind CSS** working with **Vite**.
 
 ## Development
